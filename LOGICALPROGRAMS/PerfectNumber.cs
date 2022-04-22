@@ -26,8 +26,6 @@ namespace LOGICALPROGRAMS
             else
                 Console.WriteLine(num+" is not perfect Number!");
 
-        }
-          
-         
+        }  
     }
 }
