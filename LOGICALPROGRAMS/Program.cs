@@ -21,6 +21,11 @@ while(true)
             Prime prime = new();
             prime.Prime_Number();
             break;
+        case 4:
+            ReverseANumber reverse = new();
+            reverse.Reverse();
+            break;
+
         default:
             break;
     }
