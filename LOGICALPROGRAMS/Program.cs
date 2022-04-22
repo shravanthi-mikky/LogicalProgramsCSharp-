@@ -4,7 +4,7 @@ using LOGICALPROGRAMS;
 Console.WriteLine("---------Logical Programs in C #-----------");
 while(true)
 {
-    Console.WriteLine("Enter the option to choose the program : \n1)Fibonacci Series\n2)Perfect Number\n3)Prime Numbers");
+    Console.WriteLine("Enter the option to choose the program : \n1)Fibonacci Series\n2)Perfect Number\n3)Prime Numbers\n4)Reverse a Number\n5)Binary Conversion");
     int option = Convert.ToInt16(Console.ReadLine());
     switch(option)
     {
@@ -24,6 +24,10 @@ while(true)
         case 4:
             ReverseANumber reverse = new();
             reverse.Reverse();
+            break;
+        case 5:
+            BinaryNumber Coupon = new();
+            Coupon.BinaryNumberMethod();
             break;
 
         default:
