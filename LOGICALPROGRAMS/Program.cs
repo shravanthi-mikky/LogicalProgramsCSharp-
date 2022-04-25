@@ -4,7 +4,7 @@ using LOGICALPROGRAMS;
 Console.WriteLine("---------Logical Programs in C #-----------");
 while(true)
 {
-    Console.WriteLine("Enter the option to choose the program : \n1)Fibonacci Series\n2)Perfect Number\n3)Prime Numbers");
+    Console.WriteLine("Enter the option to choose the program : \n1)Fibonacci Series\n2)Perfect Number\n3)Prime Numbers\n4)Reverse a Number\n5)stop watch\n6)Coupon Codes");
     int option = Convert.ToInt16(Console.ReadLine());
     switch(option)
     {
@@ -25,8 +25,20 @@ while(true)
             ReverseANumber reverse = new();
             reverse.Reverse();
             break;
+        case 5:
+            Stop_Watch watch = new();
+            watch.Test();
+            break;
+        case 6:
+            CouponCode coupon = new();
+            coupon.Coupon();
+            break;
 
         default:
             break;
     }
 }
+
+
+
+
